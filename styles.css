@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+  background:url(https://www.bizneo.com/blog/wp-content/uploads/2020/02/busqueda-booleana.jpg);
+    text-align: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+button {
+    padding: 10px;
+    border: none;
+    background: orange;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+button:hover {
+    background: darkorange;
+}
+#lista-nombres {
+    list-style: none;
+    padding: 0;
+}
+#resultado {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: green;
+    margin: 10px 0;
+}
+.hidden {
+    display: none;
+}
